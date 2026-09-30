@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# PyTorch / TensorRT / Model weights and engines
+*.engine
+*.plan
+*.trt
+*.onnx
+*.pth
+*.pt
+*.bin
+*.weights
+models/
+weights/
+trt_cache/
+
+# VapourSynth & AviSynth cache / index files / logs
+*.lwi
+*.ffindex
+*.dgi
+*.log
+*.tmp
+temp/
+_temp/
+
+# Video & Test Media Files (prevent accidentally uploading heavy test video clips)
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.ts
+*.m2ts
+*.webm
+*.y4m
+*.raw
+
+# Synology Drive sync metadata & recycle bin
+@eaDir/
+@eaDir
+.Synology*
+#recycle/
+
+# OS specific files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+.DS_Store
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
